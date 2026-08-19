@@ -15,7 +15,10 @@ const port = process.env.PORT || 4000;
 await connectDB();
 
 
-const allowedOrigins = ['http://localhost:5174']
+const allowedOrigins = [
+    'http://localhost:5174',
+    'https://cogni-well-daoamalfv-cw-bb8a.vercel.app'
+];
 
 
 app.use(express.json());
