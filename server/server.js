@@ -17,6 +17,7 @@ await connectDB();
 
 const allowedOrigins = [
     'http://localhost:5174',
+    'https://cogni-well.vercel.app',
     'https://cogni-well-daoamalfv-cw-bb8a.vercel.app'
 ];
 
