@@ -20,27 +20,6 @@ const allowedOrigins = [
     'https://cogni-well.vercel.app'
 ];
 
-app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin) {
-            return callback(null, true);
-        }
-
-        const isAllowed =
-            allowedOrigins.includes(origin) ||
-            /^https:\/\/cogni-well-[a-z0-9]+-cw-bb8a\.vercel\.app$/.test(origin);
-
-        if (isAllowed) {
-            callback(null, true);
-        } else {
-            console.log("Blocked CORS origin:", origin);
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    credentials: true
-}));
-
-
 app.use(express.json());
 app.use(cookieParser());
 
