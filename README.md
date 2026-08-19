@@ -2,12 +2,6 @@
 
 > A full-stack health screening and therapy platform that lets elderly users self-test for early signs of Parkinson's, dementia, and vision decline through interactive games, and gives their caregivers a dashboard to track results over time.
 
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248?logo=mongodb&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 **[Live Demo →](https://cogni-well.vercel.app/)**
 
